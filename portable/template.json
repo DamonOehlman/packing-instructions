@@ -7,8 +7,13 @@
     
     "theme": "dark", 
     
-    "resources": [
-        "css/portable.css <= portable!css/portable.css",
-        "css/theme-dark.css <= portable!css/theme-dark.css"
-    ]
+    "resources": {
+        "core": [
+            "css/portable.css <= portable!css/portable.css"
+        ],
+        
+        "optional": {
+            "theme-dark": ["css/theme-dark.css <= portable!css/theme-dark.css"]
+        }
+    }
 }
