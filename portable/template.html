@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ title }}</title>
+	<meta name="viewport" content="width=device-width;">
+	<link rel="stylesheet" href="css/portable.css" type="text/css">
+	<link rel="stylesheet" href="css/theme-{{ theme }}.css" type="text/css">
+	{{#each includes.head}}{{{ this }}}{{/each}}
+</head>
+<body class="portable">
+{{#each items}}
+<section {{#each attributes}}{{key}}="{{val}}"{{/each}}>
+	{{{ content }}}
+</section>
+{{/each}}
+<script src="js/jquery.min.js"></script>
+{{#each includes.body}}{{{ this }}}{{/each}}
+</body>
+</html>

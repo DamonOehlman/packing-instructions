@@ -1,0 +1,14 @@
+{
+    "title": "portable (Web Presentation -> PDF) template",
+    "template": "template.html",
+    "aliases": {
+        "portable": "github://DamonOehlman/portable"
+    },
+    
+    "theme": "dark", 
+    
+    "resources": [
+        "css/portable.css <= portable!css/portable.css",
+        "css/theme-dark.css <= portable!css/theme-dark.css"
+    ]
+}
