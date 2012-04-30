@@ -1,0 +1,30 @@
+{
+    "title": "reveal.js Presentation Template",
+    "template": "template.html",
+    
+    "aliases": {
+        "reveal": "github://hakimel/reveal.js"
+    },
+    
+    "resources": {
+        "core": [
+            "[head] css/reset.css <= reveal!css/reset.css",
+            "[head] css/main.css <= reveal!css/main.css",
+            "[head] lib/zenburn.css <= reveal!lib/zenburn.css",
+            "js/reveal.js <= reveal!js/reveal.js",
+            "lib/highlight.js <= reveal!lib/highlight.js",
+            "lib/classList.js <= reveal!lib/classList.js"
+        ],
+        
+        "optional": {
+            "theme-swiss": [
+                "css/swiss.css <= deck!themes/style/swiss.css"
+            ],
+            
+            "extension-hash": [
+                "css/deck.hash.css <= deck!extensions/hash/deck.hash.css",
+                "js/deck.hash.js <= deck!extensions/hash/deck.hash.js"
+            ]
+        }
+    }
+}
