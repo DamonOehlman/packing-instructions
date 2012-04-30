@@ -14,17 +14,9 @@
             "js/reveal.js <= reveal!js/reveal.js",
             "lib/highlight.js <= reveal!lib/highlight.js",
             "lib/classList.js <= reveal!lib/classList.js"
-        ],
+        ]
         
         "optional": {
-            "theme-swiss": [
-                "css/swiss.css <= deck!themes/style/swiss.css"
-            ],
-            
-            "extension-hash": [
-                "css/deck.hash.css <= deck!extensions/hash/deck.hash.css",
-                "js/deck.hash.js <= deck!extensions/hash/deck.hash.js"
-            ]
         }
     }
 }
