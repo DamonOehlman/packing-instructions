@@ -10,10 +10,8 @@
         "core": [
             "[head] css/reset.css <= reveal!css/reset.css",
             "[head] css/main.css <= reveal!css/main.css",
-            "[head] lib/zenburn.css <= reveal!lib/zenburn.css",
             "[head] js/jquery.min.js <= http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
             "js/reveal.js <= reveal!js/reveal.js",
-            "lib/highlight.js <= reveal!lib/highlight.js",
             "lib/classList.js <= reveal!lib/classList.js"
         ],
         
