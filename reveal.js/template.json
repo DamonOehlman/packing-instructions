@@ -12,7 +12,9 @@
             "[head] css/main.css <= reveal!css/main.css",
             "[head] js/jquery.min.js <= http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
             "js/reveal.js <= reveal!js/reveal.js",
-            "lib/classList.js <= reveal!lib/classList.js"
+            "lib/classList.js <= reveal!lib/classList.js",
+            
+            "assets/fonts/leaguegothic/league_gothic-webfont.ttf <= reveal!assets/fonts/leaguegothic/league_gothic-webfont.ttf"
         ],
         
         "optional": {
