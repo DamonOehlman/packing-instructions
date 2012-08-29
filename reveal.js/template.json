@@ -11,7 +11,6 @@
             "[head] js/jquery.min.js <= http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
             "[head] js/head.min.js <= github://headjs/headjs/dist/head.min.js",
             "js/reveal.js <= reveal!js/reveal.js",
-            "lib/classList.js <= reveal!lib/classList.js",
 
             "css/main.css <= reveal!css/main.css",          
             "css/theme/default.css <= reveal!css/theme/default.css",          
