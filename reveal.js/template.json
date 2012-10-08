@@ -12,9 +12,11 @@
             "[head] js/head.min.js <= github://headjs/headjs/dist/head.min.js",
             "js/reveal.js <= reveal!js/reveal.js",
 
-            "css/main.css <= reveal!css/main.css",          
+            "css/reveal.css <= reveal!css/reveal.css",          
             "css/theme/default.css <= reveal!css/theme/default.css",          
-            "assets/fonts/leaguegothic/league_gothic-webfont.ttf <= reveal!assets/fonts/leaguegothic/league_gothic-webfont.ttf"
+            "lib/font/leaguegothic/league_gothic-webfont.ttf <= reveal!lib/font/leaguegothic/league_gothic-webfont.ttf",
+            "lib/font/leaguegothic/league_gothic-webfont.woff <= reveal!lib/font/leaguegothic/league_gothic-webfont.woff",
+            "lib/font/leaguegothic/league_gothic-webfont.svg <= reveal!lib/font/leaguegothic/league_gothic-webfont.svg"
         ],
         
         "optional": {
