@@ -1,25 +1,24 @@
 {
-    "title": "reveal.js Presentation Template",
-    "template": "template.html",
-    
-    "aliases": {
-        "reveal": "github://hakimel/reveal.js"
-    },
-    
-    "resources": {
-        "core": [
-            "[head] js/jquery.min.js <= http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
-            "[head] js/head.min.js <= github://headjs/headjs/dist/head.min.js",
-            "js/reveal.js <= reveal!js/reveal.js",
+  "title": "reveal.js Presentation Template",
+  "template": "template.html",
+  
+  "aliases": {
+    "reveal": "github://hakimel/reveal.js"
+  },
+  
+  "resources": {
+    "core": [
+      "[head] js/head.min.js <= github://headjs/headjs/dist/head.min.js",
+      "js/reveal.js <= reveal!js/reveal.js",
 
-            "css/reveal.css <= reveal!css/reveal.css",          
-            "css/theme/default.css <= reveal!css/theme/default.css",          
-            "lib/font/leaguegothic/league_gothic-webfont.ttf <= reveal!lib/font/leaguegothic/league_gothic-webfont.ttf",
-            "lib/font/leaguegothic/league_gothic-webfont.woff <= reveal!lib/font/leaguegothic/league_gothic-webfont.woff",
-            "lib/font/leaguegothic/league_gothic-webfont.svg <= reveal!lib/font/leaguegothic/league_gothic-webfont.svg"
-        ],
-        
-        "optional": {
-        }
+      "css/reveal.css <= reveal!css/reveal.css",          
+      "css/theme/default.css <= reveal!css/theme/default.css",          
+      "lib/font/league_gothic-webfont.ttf <= reveal!lib/font/leaguegothic/league_gothic-webfont.ttf",
+      "lib/font/league_gothic-webfont.woff <= reveal!lib/font/leaguegothic/league_gothic-webfont.woff",
+      "lib/font/league_gothic-webfont.svg <= reveal!lib/font/leaguegothic/league_gothic-webfont.svg"
+    ],
+    
+    "optional": {
     }
+  }
 }
