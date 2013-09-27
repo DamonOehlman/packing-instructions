@@ -1,28 +1,28 @@
 {
-    "title": "deck.js Standard template",
-    "template": "template.html",
+  "title": "deck.js Standard template",
+  "template": "template.html",
+  
+  "aliases": {
+    "deck": "github://imakewebthings/deck.js"
+  },
+  
+  "resources": {
+    "core": [
+      "[head] js/modernizr.custom.js <= deck!modernizr.custom.js",
+      "js/jquery.min.js <= deck!jquery-1.7.2.min.js",
+      "js/deck.core.js <= deck!core/deck.core.js",
+      "css/deck.core.css <= deck!core/deck.core.css"
+    ],
     
-    "aliases": {
-        "deck": "github://imakewebthings/deck.js"
-    },
-    
-    "resources": {
-        "core": [
-            "[head] js/modernizr.custom.js <= deck!modernizr.custom.js",
-            "js/jquery.min.js <= deck!jquery-1.7.min.js",
-            "js/deck.core.js <= deck!core/deck.core.js",
-            "css/deck.core.css <= deck!core/deck.core.css"
-        ],
-        
-        "optional": {
-            "theme-swiss": [
-                "css/swiss.css <= deck!themes/style/swiss.css"
-            ],
-            
-            "extension-hash": [
-                "css/deck.hash.css <= deck!extensions/hash/deck.hash.css",
-                "js/deck.hash.js <= deck!extensions/hash/deck.hash.js"
-            ]
-        }
+    "optional": {
+      "theme-swiss": [
+        "css/swiss.css <= deck!themes/style/swiss.css"
+      ],
+      
+      "extension-hash": [
+        "css/deck.hash.css <= deck!extensions/hash/deck.hash.css",
+        "js/deck.hash.js <= deck!extensions/hash/deck.hash.js"
+      ]
     }
+  }
 }
