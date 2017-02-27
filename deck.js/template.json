@@ -9,7 +9,7 @@
   "resources": {
     "core": [
       "[head] js/modernizr.custom.js <= deck!modernizr.custom.js",
-      "js/jquery.min.js <= deck!jquery-1.7.2.min.js",
+      "js/jquery.min.js <= deck!jquery.min.js",
       "js/deck.core.js <= deck!core/deck.core.js",
       "css/deck.core.css <= deck!core/deck.core.css"
     ],
